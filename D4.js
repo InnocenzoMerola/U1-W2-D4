@@ -109,8 +109,6 @@ console.log("Es. 7: ", reverseResult);
  La funzione deve rendere maiuscola la prima lettera di ogni parola contenuta nella stringa.
 */
 
-// const upperFirst = function (strinMaiusc) {};
-
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 9
@@ -118,12 +116,10 @@ console.log("Es. 7: ", reverseResult);
  della stringa originale.
 */
 
-// const cutString = function (stringCut) {
-//   cutString = "stringCut";
-//   console.log(cutString.slice(1, 8));
-// };
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+const cutString = function (stringCut) {
+  return stringCut.slice(1, stringCut.length - 1);
+};
+console.log("Es. 9: ", cutString("Developer"));
 
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
