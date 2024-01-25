@@ -49,7 +49,7 @@ console.log("Es. 3: ", differenceValue);
 */
 
 const boundary = function (n) {
-  if (n > 20 && n <= 100) {
+  if (n >= 20 && n <= 100) {
     return true;
   } else if (n === 400) {
     return true;
@@ -109,12 +109,19 @@ console.log("Es. 7: ", reverseResult);
  La funzione deve rendere maiuscola la prima lettera di ogni parola contenuta nella stringa.
 */
 
+// const upperFirst = function (strinMaiusc) {};
+
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 9
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
  della stringa originale.
 */
+
+// const cutString = function (stringCut) {
+//   cutString = "stringCut";
+//   console.log(cutString.slice(1, 8));
+// };
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
